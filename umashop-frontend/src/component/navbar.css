@@ -1,0 +1,57 @@
+.nav {
+    @apply px-10 py-5 bg-white;
+}
+
+.nav a {
+    @apply text-center;
+}
+
+.navContent {
+    @apply flex z-10;
+}
+
+.leftNav {
+    @apply flex items-center;
+}
+
+.middleNav {
+    @apply space-x-10 flex flex-1 justify-center;
+}
+
+.middleNav li {
+    @apply hidden md:flex items-center;
+}
+
+.middleNav a {
+    @apply inline-block
+    relative
+    cursor-pointer
+    transition-all
+    duration-500;
+}
+.middleNav a::before {
+    @apply content-['']
+    absolute
+    -bottom-2
+    left-0
+    w-0
+    h-px
+    rounded-full
+    opacity-0
+    transition-all
+    duration-500
+    bg-gradient-to-r
+    bg-gray-600
+    hover:w-full
+    hover:opacity-100;
+}
+
+.searchBar {
+    @apply border-2
+    w-64
+    py-2
+    px-5
+    border-gray-500
+    rounded-full
+    text-sm;
+}

@@ -1,0 +1,15 @@
+.pageSelector {
+    @apply flex justify-center m-3 space-x-3;
+}
+
+.pageSelector a {
+    @apply border-2 border-gray-500 flex justify-center items-center h-10 w-10;
+}
+
+.selected {
+    @apply bg-gray-500 text-white pointer-events-none;
+}
+
+.pageSelector a:hover {
+    @apply bg-gray-500 text-white duration-300;
+}

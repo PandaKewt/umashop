@@ -1,0 +1,7 @@
+.product-container {
+    @apply flex flex-col h-96;
+}
+
+.product-image {
+    @apply bg-black h-full;
+}

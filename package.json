@@ -1,0 +1,14 @@
+{
+  "name": "umashop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:frontend": "cd umashop-frontend && pnpm start",
+    "dev:cms": "cd umashop-cms && pnpm dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

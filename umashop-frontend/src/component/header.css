@@ -1,0 +1,15 @@
+.header {
+    @apply bg-gray-200 m-0 flex place-content-between px-10;
+}
+
+.header p {
+    @apply inline;
+}
+
+.leftHeader {
+    @apply font-bold;
+}
+
+.rightHeader {
+    @apply space-x-2;
+}

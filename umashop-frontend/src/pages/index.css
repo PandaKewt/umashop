@@ -1,0 +1,11 @@
+.hero {
+    @apply h-screen bg-black;
+}
+
+.content {
+    @apply px-16 py-10;
+}
+
+.content h2 {
+    @apply font-bold text-3xl;
+}

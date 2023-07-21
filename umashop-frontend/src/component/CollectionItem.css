@@ -1,0 +1,47 @@
+.collection {
+    @apply flex flex-col;
+}
+
+.collection:hover {
+    @apply border-gray-500  ease-in-out shadow-2xl duration-500;
+}
+
+.collection-content {
+    @apply p-5 flex flex-col flex-1;
+}
+
+.collection-item-image {
+    @apply h-1/2 relative bg-black flex-1;
+}
+
+.collection-item-image img {
+    @apply w-full h-full object-cover;
+}
+
+.variants-list {
+    @apply flex flex-wrap my-2 justify-center space-x-2;
+}
+
+.variant-item {
+    @apply w-5 h-5 bg-gray-500 rounded-full cursor-pointer;
+}
+
+.item-info {
+    @apply text-center;
+}
+
+.item-info p:nth-child(2) {
+    @apply font-bold;
+}
+
+.collection-action {
+    @apply w-full divide-white divide-x-2;
+}
+
+.collection-action a {
+    @apply text-center invisible xl:visible opacity-0 inline-block w-1/2 text-sm bg-black text-white p-2;
+}
+
+.collection:hover a {
+    @apply opacity-100 duration-500;
+}
